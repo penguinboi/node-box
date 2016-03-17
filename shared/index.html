@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+   <HEAD>
+      <TITLE>
+         CPSC 473 Assignment 4
+      </TITLE>
+   </HEAD>
+   	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.light_blue-blue.min.css" /> 
+	<script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+	<script src="index.js"></script>
+<BODY>
+	<!-- List items with avatar and action -->
+	<style>
+	.demo-list-action {
+		margin: auto;
+		width: 300px;
+	}
+	</style>
+	<div align="center" id="actorList" class="demo-list-action mdl-list">
+			<h2>Actor List</h2>
+	</div>
+		<!-- Simple Textfield -->
+	<center>
+		<form action="#">
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" type="text" id="name">
+				<label class="mdl-textfield__label" for="name">Enter Actor's Name</label>
+			</div>
+			<br>
+			<!-- Colored FAB button with ripple -->
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="add">
+				<i class="material-icons">add</i>
+			</button>
+		</form>
+	</center>
+</BODY>
+</HTML>
