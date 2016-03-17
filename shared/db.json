@@ -13,21 +13,11 @@
     {
       "id": 3,
       "name": "Bob Odenkirk",
-      "starred": true
+      "starred": false
     },
     {
       "id": 4,
       "name": "Dean Norris",
-      "starred": false
-    },
-    {
-      "id": 5,
-      "name": "Chuck Norris",
-      "starred": false
-    },
-    {
-      "id": 6,
-      "name": "Dean Martin",
       "starred": true
     }
   ]
